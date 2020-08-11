@@ -1,0 +1,82 @@
+/* Created by Harrison Kong */
+/* for "Cascading Style Sheet for Web Developers */
+
+/* master.css */
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+body {
+  background-color: #2063A3;
+
+  background-image:
+      url("../images/bkg.png"),
+      linear-gradient(to right, #014B7D, #028FD7, #014B7D);
+
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: orange;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+  text-shadow: 0.2rem 0.2rem 0.4rem black;
+}
+
+hr {
+  border: none;
+  border-top: 0.7rem dotted #CCCCCC;
+  margin-bottom: 3rem;
+  width: 70%;
+}
+
+table {
+  /* margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem; */
+
+  /* margin: 3rem auto 3rem auto; */
+
+  margin: 3rem auto;
+  width: 60%;
+}
+
+table, td {
+  border: 0.1rem solid orange;
+  border-collapse: collapse;
+  padding: 3rem;
+}
+
+thead td {
+  background-color: orange;
+  padding: 0;
+}
+
+#credits {
+  font-size: 1.5rem;
+}
+
+.still-thumbnail {
+  width: 20rem;
+}
+
+.video-thumbnail {
+  width: 15rem;
+}
